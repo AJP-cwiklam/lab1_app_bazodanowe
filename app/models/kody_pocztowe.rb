@@ -1,0 +1,3 @@
+class KodyPocztowe < ApplicationRecord
+
+end
