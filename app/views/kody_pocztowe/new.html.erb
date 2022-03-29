@@ -1,3 +1,19 @@
 <div class="flex-center">
-  <%= link_to "Zapisz kody", write_path, class: 'btn btn-primary' %>
+ <div>
+   <%= link_to "Metoda 1", write1_path, class: 'btn btn-primary' %>
+   <%= link_to "Metoda 2", write2_path, class: 'btn btn-primary' %>
+   <%= link_to "Metoda 3", write3_path, class: 'btn btn-primary' %>
+   <div class="flex-space-between">
+     <h2>Czas rozpoczęcia: </h2>
+     <h2><%= @start_date %></h2>
+   </div>
+   <div class="flex-space-between">
+     <h2>Czas zakończenia: </h2>
+     <h2><%= @end_date %></h2>
+   </div>
+   <div class="flex-space-between">
+     <h2>Czas trwania: </h2>
+     <h2><%= @difference %></h2>
+   </div>
+ </div>
 </div>
